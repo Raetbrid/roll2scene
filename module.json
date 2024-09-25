@@ -1,0 +1,42 @@
+{
+  "id": "roll2scene",
+  "title": "Roll2Scene",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "10",
+    "verified": "12"
+  },
+  "description": "The module allows you to create actors-dice with result as icon from last dice roll in the chat when you press a button. This is useful for games that use a dice pools (like Hollowpoint, Dogs in the Vineyard).\n\nTo use it, you need to \"Import All Content\" to actors folder from the \"Roll2SceneDice\" compendium and, if necessary, transfer macros from \"Roll2Scene\" the hotbar.\n\nCreated for the Simple Worldbuilding System.\nhttps://github.com/foundryvtt/worldbuilding",
+  "authors": [
+    {
+      "name": "Ratbird",
+      "url": "https://x.com/Raetbrid",
+      "discord": "Ratbird",
+      "flags": {}
+    }
+  ],
+  "packs": [
+    {
+      "name": "Roll2Scene",
+      "label": "Roll2Scene",
+      "path": "packs/Roll2Scene",
+      "type": "Macro",
+      "system": "worldbuilding",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "Roll2SceneDice",
+      "label": "Roll2SceneDice",
+      "path": "packs/Roll2SceneDice",
+      "type": "Actor",
+      "system": "worldbuilding",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    }
+  ]
+}
