@@ -6,9 +6,6 @@
     "minimum": "10",
     "verified": "12"
   },
-  "url": "https://github.com/Raetbrid/roll2scene",
-  "manifest": "https://github.com/Raetbrid/roll2scene/releases/download/1.0.0/module.json"
-  "download": "https://github.com/Raetbrid/roll2scene/releases/download/1.0.0/roll2scene.zip"
   "description": "The module allows you to create actors-dice with result as icon from last dice roll in the chat when you press a button. This is useful for games that use a dice pools (like Hollowpoint, Dogs in the Vineyard).\n\nTo use it, you need to \"Import All Content\" to actors folder from the \"Roll2SceneDice\" compendium and, if necessary, transfer macros from \"Roll2Scene\" the hotbar.\n\nCreated for the Simple Worldbuilding System.\nhttps://github.com/foundryvtt/worldbuilding",
   "authors": [
     {
@@ -41,5 +38,6 @@
         "ASSISTANT": "OWNER"
       }
     }
-  ]
+  ],
+  "url": "https://github.com/Raetbrid/roll2scene"
 }
